@@ -1,6 +1,6 @@
 import { Str } from '../src/helpers';
 
-describe('First', () => {
+describe('First test', () => {
     it('Should return the string where the first character is uppercase.', () => {
         expect(new Str('pieter').ucfirst).toEqual('Pieter');
     });
