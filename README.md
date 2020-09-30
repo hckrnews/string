@@ -9,18 +9,29 @@ here an example array.
 ```
 import { Str } from '@hckrnews/string';
 
-var exampleString = new Str('pieter');
+var exampleString = new Str('pieter wigboldus');
 ```
 
 ## ucfirst
 
-...
+Make a string's first character uppercase
 
 ```
 exampleArray.ucfirst;
 
-Pieter
+Pieter wigboldus
 ```
+
+## ucwords
+
+Uppercase the first character of each word in a string
+
+```
+exampleArray.ucwords;
+
+Pieter Wigboldus
+```
+
 
 
 ## Test the package.
